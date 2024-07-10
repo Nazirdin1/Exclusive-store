@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Cart:hover>.btnCart {
+  display: flex !important;
+}
+
+.block.active {
+  background: #DB4444;
+  color: #fff;
+}
+
+/* a{
+    color: #fff !important;
+  } */
+
+.footer-account,
+.footer-quick {
+  a {
+    color: #fff !important;
+  }
+
+  &:hover {
+    background: transparent;
+  }
+}
